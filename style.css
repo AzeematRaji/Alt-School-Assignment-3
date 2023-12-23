@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-color: #f5f8fa;
+  font-family: Lato;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+nav {
+  background-color: #f5f8fa;
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin: 30px 40px;
+  border-bottom: 2px solid #e0e6ea;
+}
+
+nav a {
+  color: #1d2c3c;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.wp-pusher {
+  float: left;
+  width: 200px;
+  height: 39px;
+}
+.nav-link {
+  float: right;
+}
+
+.account-btn {
+  width: 91px;
+  height: 40px;
+  border-radius: 5px;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #f5f8fa;
+}
+
+.panel {
+  margin: 87px 286px 189px 262px;
+}
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 33px;
+}
+.mainBar {
+  background-color: #ffffff;
+  height: 795px;
+}
+
+h2 {
+  margin: 41px 371px 24px 48px;
+  padding: 0 35px 18px 0;
+  color: #1d2c3c;
+  font-size: 30px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.h2-wrapper {
+  border-bottom: 2px solid #f5f7fa;
+}
+
+.detail-info {
+  margin-top: 34px;
+  border-top: 2px;
+  width: 580px;
+  height: 221px;
+  border-bottom: 2px solid #e0e6ea;
+  flex-shrink: 0;
+  padding: 0 48px 43px 49px;
+}
+
+.basicInfo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-box {
+  font-size: 14px;
+  font-family: Lato;
+  word-wrap: break-word;
+  font-weight: 400;
+  height: 60px;
+  width: 227px;
+  margin-bottom: 15px;
+}
+label {
+  width: 187px;
+  height: 17px;
+  color: #1d2c3c;
+}
+input {
+  width: 227px;
+  height: 36px;
+  margin-top: 7px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #edeff2;
+  padding: 9px 27px 10px 13px;
+}
+#email {
+  width: 370px;
+}
+.title {
+  width: 220px;
+  height: 32px;
+  color: #1d2c3c;
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.imageOne {
+  color: #548bc5;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.imageTwo {
+  color: #548bc5;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.title-wrapper {
+  margin: 0 100px 9px 0;
+  display: flex;
+  align-items: center;
+}
+.payment-info {
+  margin-top: 34px;
+  border-top: 2px;
+  width: 580px;
+  height: 154px;
+  border-bottom: 2px solid #e0e6ea;
+  flex-shrink: 0;
+  padding: 0 48px 43px 49px;
+}
+.credit-card {
+  width: 483px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.card-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-input span {
+  margin-right: 0px;
+}
+.card-input span:first-child {
+  flex: auto;
+}
+.card-input span:last-child {
+  margin-right: 0;
+  flex: 1;
+}
+.card-input input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.credit-card .cvc input::placeholder {
+  text-align: right;
+}
+.credit-card .expiration-date input::placeholder {
+  text-align: right;
+}
+
+.buy-button {
+  margin: 39px 48px 24px 49px;
+  width: 483px;
+  height: 52px;
+  color: white;
+  background-color: #038e7d;
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+  border-style: none;
+}
+.contact-support {
+  text-align: center;
+  color: #646e7a;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.help {
+  color: #1d2c3c;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.mask {
+  margin-right: 7px;
+  padding-top: 3px;
+}
+.stripe {
+  margin: 34px 242px 46.9px 246px;
+}
+
+footer {
+  text-align: center;
+  color: #636b6f;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.terms {
+  color: #31708f;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+h3 {
+  color: #1d2c3c;
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.sideBar {
+  width: 312px;
+  height: 795px;
+  background-color: #1179bf;
+  padding: 40px 39px 40px 46px;
+  color: white;
+}
+.plan {
+  width: 231px;
+  height: 152;
+  padding-right: 37px;
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+
+.dollar-sign {
+    width: 14px;
+    height: 29px;
+    padding-right: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: -23px;
+  
+}
+.number {
+  font-weight: 300;
+  font-size: 60px;
+  display: inline-block;
+}
+.year {
+  font-weight: 700;
+  font-size: 18px;
+}
+.renewal {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.details {
+  margin: 0 58px 38px 1px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.mark-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: 6px;
+  vertical-align: middle;
+}
+.switch {
+  margin: 1px 41px 38px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 41px;
+}
+.twenty {
+  font-weight: 700;
+}
+.agency-plan {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.agency {
+  font-style: italic;
+}
+
+.quote {
+  color: white;
+  font-size: 18px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  width: 227px;
+  height: 96px;
+}
+.text-5 {
+  color: white;
+  font-size: 18px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 700;
+}
+.kirk {
+  border-radius: 50%;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+.kirk-beard {
+  color: white;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  word-wrap: break-word;
+}
